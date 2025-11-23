@@ -1,1 +1,3 @@
 Your questions here.
+
+Why do C/C++ allow omitting the parameter name in main(), but Java does not?
