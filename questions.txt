@@ -9,4 +9,6 @@ have associated object or instance, therefore, it does not know which internal d
 - About Late Binding, does it mean "Fields are statically bound" but method does not? Does it mean method is dynamic, and
 Java will choose the subclass version at runtime, depending on the actual object?
 
-- 
+- Why not use only instance initializers? Why constructors are still needed
+
+-
