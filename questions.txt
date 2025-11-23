@@ -1,3 +1,12 @@
 Your questions here.
 
-Why do C/C++ allow omitting the parameter name in main(), but Java does not?
+- Why do C/C++ allow omitting the parameter name in main(), but Java does not?
+
+- {As a result, maximumPlaylistSize cannot make reference to any of elements of data normally associated with an instance of the playlist (i.e., a list of songs). 
+These elements that are specific to instance of an ADT are known as fields in Java. Can you understand why?} Is it because static methods don't
+have associated object or instance, therefore, it does not know which internal data to look at?
+
+- About Late Binding, does it mean "Fields are statically bound" but method does not? Does it mean method is dynamic, and
+Java will choose the subclass version at runtime, depending on the actual object?
+
+- 
