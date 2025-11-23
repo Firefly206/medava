@@ -11,4 +11,10 @@ Java will choose the subclass version at runtime, depending on the actual object
 
 - Why not use only instance initializers? Why constructors are still needed
 
--
+- Why we have to do this 
+"
+public Thrombolytic() {
+  super("Thrombolytic");
+}"? Is it because Java does not automatically know how to initialize the superclass? Is it work the same way in cpp?
+
+- Why does Java avoid auto-assigning meaningful numbers?
