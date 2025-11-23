@@ -1,6 +1,6 @@
 package edu.uc.cs3003.medava;
 
-public class Medicine {
+public abstract class Medicine implements Shippable {
     private String mMedicineName;
     // Constructor
     public Medicine(String medicineName) {
@@ -27,4 +27,5 @@ public class Medicine {
         return false;
     }
 
+    public abstract MedicineSchedule getSchedule();
 }
